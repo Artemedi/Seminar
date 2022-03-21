@@ -6,5 +6,5 @@ int N = int.Parse(Console.ReadLine());
 
 for (int i = 1; i <=N; i++)
 {
-    Console.WriteLine($"квадрат числа {i} = {(Math.Pow(i, 3))}");
+    Console.WriteLine($"куб числа {i} = {(Math.Pow(i, 3))}");
 }
