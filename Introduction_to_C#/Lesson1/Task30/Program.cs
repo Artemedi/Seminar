@@ -1,8 +1,14 @@
 ﻿// Напишите программу, которая выводит массив из 8 элементов, заполненный нулями и единицами в случайном порядке.
-Random rnd = new Random();
-int[] a = {0,1,2,3,4,5,6};
-//a = new Random().Next(0,2);
-// for (int i = 1; i <= 10; i++)
+int [] Mass = new int [9] ;
+
+Random NewMass = new Random ();
+
+for (int i=0; i<Mass.Length; i++)
 {
-    
+Mass [i] = NewMass.Next (0,2);
+Console.Write ($" {Mass[i]}");
+
 }
+Console.WriteLine();
+
+//Код не мой
