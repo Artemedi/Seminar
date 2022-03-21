@@ -11,4 +11,5 @@ Console.Write ($" {Mass[i]}");
 }
 Console.WriteLine();
 
+
 //Код не мой
