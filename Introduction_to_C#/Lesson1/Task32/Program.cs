@@ -2,10 +2,7 @@
 Console.WriteLine("Введите количество элементов ");
 int perem = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 int[] mass = new int[perem];
-//int len = mass.Length;
 int index = 0;
-// int ResNegative = 0;
-// int ResPositive = 0;
 
 void MassiveStart(int[] array)
 {
