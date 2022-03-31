@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 Console.WriteLine("Введите число");
 
 int a = Convert.ToInt32(Console.ReadLine());
