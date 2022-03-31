@@ -8,7 +8,7 @@ B = Math.Abs(B);
 int C = 1;
 for(int i = 1; i <= A; i++)
 {
-   C *= B;
+   C*= B;
 }
 Console.WriteLine(C);
 Console.WriteLine((Math.Pow(B, A)));

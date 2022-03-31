@@ -40,4 +40,3 @@ init_array();
 print_array(array);
 int [] array1 = process_array2(array);
 print_array(array1);
-
