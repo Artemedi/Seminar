@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 Console.WriteLine("Введите элементы массива");
 
 int [] array = new int[8];
