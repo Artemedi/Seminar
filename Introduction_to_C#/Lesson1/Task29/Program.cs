@@ -11,5 +11,5 @@ while (index < len)
 }
 for (int i = 0; i < len; i++)
 {
-    Console.WriteLine(array[i]);
+    Console.Write($"{array[i]} ");
 }
