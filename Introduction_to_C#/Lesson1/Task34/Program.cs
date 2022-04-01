@@ -7,21 +7,22 @@ int perem = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 int[] array = new int[perem];
 //Задаем длину массива из введеного числа
 int count = 0;
+//Устанавливаем переменную в 0. Она будет счётчиком
 Console.Write("Исходный массив: ");
 
 for (int i = 0; i < perem; i++)
     {
-        array[i] = new Random().Next(100, 999);
-        Console.Write(array[i] + " ");
+        array[i] = new Random().Next(100, 999); //Генерируем трехзнычные значение в объявленный массив
+        Console.Write(array[i] + " ");  //Выводим результат в строку
     }
 Console.WriteLine();
 Console.Write("Чётные числа в массиве: ");
 for (int i = 0; i < perem; i++)
 {
-    if(array[i] % 2 == 0)
+    if(array[i] % 2 == 0)   //Проверяем делится ли каждое число на 2
     {
-        Console.Write(array[i] + " ");
-        count++;
+        Console.Write(array[i] + " ");  //Выводим полученное значение в строку
+        count++;    //Приблавяем счётчик на +1
     }
 }
 Console.WriteLine();
