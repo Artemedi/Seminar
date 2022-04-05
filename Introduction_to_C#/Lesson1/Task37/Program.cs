@@ -3,7 +3,7 @@
 
 using System;
 
-const int size_N=16;
+const int size_N=8;
 
 int [] array = new int[size_N];
 
