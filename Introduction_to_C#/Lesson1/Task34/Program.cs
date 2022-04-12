@@ -99,3 +99,26 @@ print_array(array);
 Console.Write($"Чётные числа в массиве из функции: ");
 result_array(array);
 Console.WriteLine($"Количество чётных чисел в массиве: {count}");
+
+
+//34. Вариант с урока
+
+// int[] array = new int[10];
+// for(int i = 0; i < array.Length; i++){
+//   array[i] = new Random(). Next(100,1000);
+//   Console.Write(array[i] + "");
+// }
+// Console.WriteLine();
+
+// int countEven = 0;
+// int countOdd = 0;
+// for(int i = 0; i < array.Length; i++){
+//   if (array[i] % 2 == 0){
+//     countEven += 1;
+//   }else{
+//     countOdd += 1;
+//   }
+// }
+
+// Console.WriteLine("Четные = ", countEven);
+// Console.WriteLine("Нечетные = ", oddEven);
