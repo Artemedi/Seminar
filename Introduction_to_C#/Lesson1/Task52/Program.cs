@@ -18,15 +18,24 @@ for (int k = 0; k < StrokaMass; k++)
 }
 
 
-int sum = 0;
-foreach (int v in Mass)
+// double sum = 0;
+// foreach (int v in Mass)
+// {
+//     sum += v;
+// }
+// Перечитал условие. Некорректно. Нужно ведь каждого столбца
+double sum = 0;
+for (int i = 0; i < Mass.GetLength(0); i++)
 {
-    sum += v;
+    for (int k = 0; k < Mass.GetLength(1); k++)
+    {
+        sum += Mass[i, k];
+    }
+    Console.WriteLine($"Сумма элементов в столбце: {sum} и его среднее арефметическое значение: {sum / Mass.GetLength(0)}");
 }
-Console.Write("Сумма элементов в каждом столбце: ");
-Console.Write(sum);
-Console.WriteLine(" ");
-Console.Write("Среднее арифметическое массива: ");
-Console.Write(sum / StolbMass);
+
+//Хотя сейчас смотрю и понимаю, что так же можно было через foreach, наверное и через void
+
+
 
 
