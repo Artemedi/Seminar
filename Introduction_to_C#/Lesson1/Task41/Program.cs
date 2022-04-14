@@ -38,9 +38,9 @@ void CharString(char[] array)
 CharString(ch);
 Console.Write("Массив из чисел в строке больше 0: ");
 Console.Write(ResultArray);
-//Console.Write($" и длина массива {ResultArray.Length}");
+Console.Write($" и состоит из {ResultArray.Length} значений.");
 Console.WriteLine();
-Console.Write("Массив из символов в строке: ");
+Console.Write("Массив из неподходящих символов в строке: ");
 Console.Write(NegativeArray);
 //Console.Write($" и длина массива {NegativeArray.Length}");
 
