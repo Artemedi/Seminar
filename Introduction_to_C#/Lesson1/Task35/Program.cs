@@ -22,5 +22,6 @@ void MassiveStart(int[] array)
     }
 Console.WriteLine("");
 }
+
 MassiveStart(mass);
 Console.WriteLine($"Количество элементов из отрезка равняется {count}");
