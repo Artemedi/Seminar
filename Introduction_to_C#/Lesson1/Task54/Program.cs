@@ -1,7 +1,6 @@
 ﻿//Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию 
 //элементы каждой строки двумерного массива(в пределах всего массива).
 
-
 void GenArray(int[,] array)
 {
     for (int k = 0; k < array.GetLength(1); k++)
@@ -14,8 +13,6 @@ void GenArray(int[,] array)
         Console.WriteLine(" ");
     }
 }
-
-
 
 Console.WriteLine("Введите количество строк массива: ");
 int LineMass = Convert.ToInt32(Console.ReadLine());
