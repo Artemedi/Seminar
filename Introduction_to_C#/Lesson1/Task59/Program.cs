@@ -11,7 +11,7 @@ int InputExamNumber() // ввод и проверка числа
         if (int.TryParse(text, out int number))
         {
             return number;
-            break;
+            //break;
         }
         Console.WriteLine("Не удалось распознать число, попробуйте еще раз.");
     }
@@ -59,7 +59,7 @@ int FindMinArray(int[,] matr)
     }
     Console.WriteLine(min);
     return point0;
-    return point1;
+    //return point1;
 }
 
 
