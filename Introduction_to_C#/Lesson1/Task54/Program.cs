@@ -53,4 +53,8 @@ int ArrayLenght1 = Convert.ToInt32(Console.ReadLine());
 int[,] Array = new int[ArrayLenght0, ArrayLenght1];
 
 GenArray(Array);
+Console.WriteLine("Сгенерированный массив:");
+PrintArray(Array);
+Console.WriteLine();
+Console.WriteLine("Отсортированный массив:");
 PrintArray(SortArray(Array));
