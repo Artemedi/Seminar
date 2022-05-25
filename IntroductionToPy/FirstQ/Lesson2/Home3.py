@@ -9,3 +9,4 @@ del lst[0:a]
 print(lst)
 print(max(lst), min(lst))
 
+#AAAAAAAAAA
