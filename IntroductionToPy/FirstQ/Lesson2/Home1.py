@@ -15,6 +15,9 @@
 
 # Ну и вариант со списком
 
+import random
+
+
 def spisok(n):
     lst = []
     a = 0
@@ -25,5 +28,5 @@ def spisok(n):
     print(f'Выводим на печать все числа для суммирования: {lst}')
     return(a)
 
-n = int(input())
+n = random.randint(3, 19)
 print(f'И возвращаем сумму всех нечётных позиций от числа {n}: {spisok(n)}')
